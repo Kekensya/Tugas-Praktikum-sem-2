@@ -58,6 +58,7 @@ public class Student {
         return (mathGrade + scienceGrade + englishGrade) / 3;
     }
 
+    //Jawaban untuk nomor 3 method statusAkhir
     public boolean statusAkhir() {
         double average = getAverage();
         return average >= 61; //lolos jika true dan remidi jika false
